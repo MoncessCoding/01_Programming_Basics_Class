@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Pet Shelter</h1>
+        <img src="puppy.avif" alt="Puppy">
+        <div class="form_container">
+            <h2>Add your pet here:</h2>
+            <form action="#">
+                <div>
+                    <label for="petName">Pet Name:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="petType">Pet Type</label>
+                    <select name="petType">
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Fish">Fish</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="friendly">Friendly?</label>
+                    <span>
+                        <input type="checkbox">
+                        <label for="Yes">Yes</label>
+                    </span>
+                    <span>
+                        <input type="checkbox">
+                        <label for="No">No</label>
+                    </span>
+                </div>
+                <div>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date">
+                </div>
+                <input type="submit" value="Add">
+            </form>
+        </div>
+        <div class="table_container">
+            <h2>New Pets up for adoption</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Friendly</th>
+                        <th>Birthday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toby</td>
+                        <td>Dog</td>
+                        <td>Yes</td>
+                        <td>09/19/2018</td>
+                    </tr>
+                    <tr>
+                        <td>Ottie</td>
+                        <td>Dog</td>
+                        <td>Yes</td>
+                        <td>10/10/2022</td>
+                    </tr>
+                    <tr>
+                        <td>Roger</td>
+                        <td>Cat</td>
+                        <td>No</td>
+                        <td>12/01/2017</td>
+                    </tr>
+                    <tr>
+                        <td>Gary</td>
+                        <td>Cat</td>
+                        <td>Yes</td>
+                        <td>12/19/2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
